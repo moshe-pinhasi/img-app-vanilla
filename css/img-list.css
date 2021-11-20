@@ -1,0 +1,36 @@
+.img-list-page {
+  display: flex;
+}
+
+.img-list {
+  width: 230px;
+}
+
+.img-preview-item {
+  cursor: pointer;
+  padding: 10px;
+  display: flex;
+}
+
+.img-preview-item:hover {
+  background-color: var(--gray-300);
+}
+
+.img-preview-item .delete {
+  opacity: 0;
+  transition: opacity 0.6s;
+}
+
+.img-preview-item:hover .delete {
+  opacity: 1;
+}
+
+.img-name {
+  margin: 0 0 0 10px;
+  flex: 1;
+}
+
+.img-list-preview img {
+  width: 500px;
+  object-fit: cover;
+}

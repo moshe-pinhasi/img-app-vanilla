@@ -1,0 +1,45 @@
+html {
+    font-family: Helvetica;
+}
+
+body {
+    width: 100%;
+    /* background-color: #111; */
+    user-select: none;
+    margin: 0;
+    /* font-size: 2em; */
+    color: var(--gray-900);
+}
+
+p {
+    margin: 0 0 1em;
+}
+
+/* img {
+    width: 100%;
+    object-fit: cover;
+} */
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* button {
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 1.2em;
+    margin: 5px;
+} */

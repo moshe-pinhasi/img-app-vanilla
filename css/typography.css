@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Helvetica';
+    src: url('../fonts/Helvetica/Helvetica.ttf');
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url("../fonts/Montserrat/Montserrat-Regular.ttf");
+}
+
+
+/* h1 {
+    font-size: rem(36px);
+    line-height: rem(48px);
+}
+
+h2 {
+    font-size: rem(28px);
+    line-height: rem(36px);
+}
+
+h3 {
+    font-size: rem(20px);
+    line-height: rem(24px);
+}
+
+h4 {
+    font-size: rem(18px);
+    line-height: rem(24px);
+}
+
+h5 {
+    font-size: rem(12px);
+    line-height: rem(24px);
+    text-transform: uppercase;
+    letter-spacing: rem(1px);
+}
+
+h6 {
+    font-size: rem(10px);
+    line-height: rem(18px);
+    text-transform: uppercase;
+    letter-spacing: rem(1.2px);
+} */

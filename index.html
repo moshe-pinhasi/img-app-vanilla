@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/d18b4c8ea9.js" crossorigin="anonymous"></script>
+
+    
+
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Image App</title>
+</head>
+
+<body>
+    <div id="app">
+      <header class="header">
+        <nav>
+          IMG App
+          <a href="/#/list" class="router-link">Images</a>
+          <a href="/#/edit" class="router-link">Add</a>
+        </nav>
+      </header>
+
+      <div class="pages-content">
+        <section class="img-list-page">
+          <div class="flex-row">
+            <div class="left-content">
+              <div class="card img-list-cmp">
+                <div class="flex-row space-between">
+                  <h4>Images</h4>
+                  <input placeholder="Search"/>
+                </div>
+                <hr />
+                <ul class="img-list">
+                </ul>
+              </div>
+            </div>
+      
+            <div class="main-content">
+              <div class="card flex-col center-ver center-hor">
+                <div class="img-list-preview"><img src="" /></div>
+                <div class="ctrl-actions">
+                  <a href="#/list" class="">Download</a>
+                  <a href="" class="btn btn-edit router-link">Edit</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+  
+        <section class="img-edit-page hidden">
+          <div class="flex-row">
+            <div class="left-content">
+              nothing for now
+            </div>
+
+            <div class="main-content">
+              <div class="card flex-col center-ver center-hor">
+                <div class="img-edit-preview"><img src="" /></div>
+                <div class="ctrl-actions">
+                  <input id="file" type="file"/>
+                  <button id="addImg">add</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+    </div>
+
+    <script type="module" src="js/main.js"></script>
+</body>
+
+</html>
